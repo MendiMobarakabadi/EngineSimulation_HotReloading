@@ -38,7 +38,7 @@ class Program
         watcher.Renamed += OnChanged;
         watcher.EnableRaisingEvents = true;
 
-        // اولین کامپایل و اجرا
+        
         await CompileAndRun(codeFilePath);
 
         Console.WriteLine("Watching for code changes... Press any key to exit.");
