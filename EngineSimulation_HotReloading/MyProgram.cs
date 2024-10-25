@@ -30,7 +30,7 @@ class MyProgram
             // Wait for 2 seconds before the next update cycle.
             // You can set this to any time you want for instance
             // 33 ms to simulate 30 fps
-            await Task.Delay(100);
+            await Task.Delay(1000);
         }
     }
 }
